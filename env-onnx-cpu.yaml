@@ -1,0 +1,14 @@
+name: phi3-onnx-cpu
+channels:
+  - nodefaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - ipykernel==6.29.4
+    - numpy==1.26.4
+    - huggingface-hub[cli]==0.23.3
+    - onnxruntime==1.18.0
+    - onnxruntime-genai==0.3.0rc2
+
+

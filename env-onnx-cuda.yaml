@@ -1,0 +1,16 @@
+name: phi3-onnx-cuda
+channels:
+  - nodefaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - --extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-genai/pypi/simple/
+    # - --extra-index-url https://pypi.ngc.nvidia.com
+    - ipykernel==6.29.4
+    - numpy==1.26.4
+    - onnxruntime-gpu==1.18.0
+    - onnxruntime-genai-cuda==0.3.0rc2
+    - huggingface-hub[cli]==0.23.3
+    # - nvidia-cuda-runtime-cu11==2022.4.25
+    # - pandas==2.2.2
