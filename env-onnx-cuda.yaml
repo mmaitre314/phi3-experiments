@@ -12,5 +12,7 @@ dependencies:
     - onnxruntime-gpu==1.18.0
     - onnxruntime-genai-cuda==0.3.0rc2
     - huggingface-hub[cli]==0.23.3
+    - nvidia-cuda-runtime-cu11==11.8.89
+    - nvidia-cudnn-cu11==8.9.4.25
     # - nvidia-cuda-runtime-cu11==2022.4.25
     # - pandas==2.2.2

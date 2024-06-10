@@ -27,12 +27,6 @@ Then open the notebook `hf.ipynb`.
 
 #### CUDA
 
-Install:
-- [CUDA 11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive)
-- [cuDNN 8.9.2.26](https://developer.nvidia.com/rdp/cudnn-archive)
-
-> TODO: try to pip install CUDA + cuDNN instead
-
 Open a shell and run:
 ```bash
 conda env create -f env-onnx-cuda.yaml
