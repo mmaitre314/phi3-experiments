@@ -1,8 +1,10 @@
 name: phi3-onnx-dml
 channels:
+  - conda-forge
   - nodefaults
 dependencies:
   - python=3.12
+  - vs2015_runtime=14.40.33810
   - pip
   - pip:
     - ipykernel==6.29.4

@@ -68,7 +68,7 @@ Experiment | Status
 --|--
 Hugging Face | `OutOfMemoryError` on GPU, super slow on CPU
 ONNX CUDA | Basic generation running
-ONNX DirectML | `ImportError: DLL load failed while importing onnxruntime_genai`
+ONNX DirectML | `The GPU will not respond to more commands`
 ONNX CPU | Basic generation running
 
 Benchmark for 'Tell a joke' prompt:
